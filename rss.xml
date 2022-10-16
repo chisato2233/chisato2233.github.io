@@ -5,15 +5,65 @@
         <link>http://example.com</link>
         <description></description>
         <language>en</language>
-        <pubDate>Wed, 12 Oct 2022 22:39:30 +0800</pubDate>
-        <lastBuildDate>Wed, 12 Oct 2022 22:39:30 +0800</lastBuildDate>
+        <pubDate>Sun, 16 Oct 2022 21:15:47 +0800</pubDate>
+        <lastBuildDate>Sun, 16 Oct 2022 21:15:47 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/2022/10/16/genshine-impact/%E5%85%83%E7%B4%A0%E8%AE%BA/</guid>
+            <title>元素论</title>
+            <link>http://example.com/2022/10/16/genshine-impact/%E5%85%83%E7%B4%A0%E8%AE%BA/</link>
+            <pubDate>Sun, 16 Oct 2022 21:15:47 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;元素论&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#元素论&#34;&gt;#&lt;/a&gt; 元素论&lt;/h1&gt;
+&lt;h2 id=&#34;第一章绪论&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第一章绪论&#34;&gt;#&lt;/a&gt; 第一章：绪论&lt;/h2&gt;
+&lt;h3 id=&#34;11-元素简介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11-元素简介&#34;&gt;#&lt;/a&gt; 1.1 元素简介&lt;/h3&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2022/10/12/chisato-is-my-wife/</guid>
-            <title>chisato is my wife!</title>
+            <title></title>
             <link>http://example.com/2022/10/12/chisato-is-my-wife/</link>
             <pubDate>Wed, 12 Oct 2022 22:39:30 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;我现在让这篇文章置顶啦各位能看见我吗&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#我现在让这篇文章置顶啦各位能看见我吗&#34;&gt;#&lt;/a&gt; 我现在让这篇文章置顶啦！各位能看见我吗？&lt;/h1&gt;
-&lt;p&gt;好家伙，我直接好家伙&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;title: 练习题与答案&lt;/p&gt;
+&lt;p&gt;quiz: true&lt;/p&gt;
+&lt;ol&gt;
+&lt;li class=&#34;quiz true&#34;&gt;
+&lt;p&gt;编译时多态主要指运算符重载与函数重载，而运行时多态主要指虚函数。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz multi&#34;&gt;
+&lt;p&gt;有基类  &lt;code&gt;SHAPE&lt;/code&gt; ，派生类  &lt;code&gt;CIRCLE&lt;/code&gt; ，声明如下变量： &lt;/p&gt;
+ &lt;figure class=&#34;highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs cpp&#34;&gt;SHAPE shape1,*p1;&lt;br&gt;CIRCLE circle1,*q1;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;下列哪些项是 “派生类对象替换基类对象”。&lt;/p&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li class=&#34;correct&#34;&gt;&lt;code&gt;p1=&amp;amp;circle1;&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;q1=&amp;amp;shape1;&lt;/code&gt;&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;&lt;code&gt;shape1=circle1;&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;circle1=shape1;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;✔️ 令基类对象的指针指向派生类对象&lt;/li&gt;
+&lt;li&gt;❌ 派生类指针指向基类的引用&lt;/li&gt;
+&lt;li&gt;✔️ 派生类对象给基类对象赋值&lt;/li&gt;
+&lt;li&gt;❌ 基类对象给派生类对象赋值&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz&#34;&gt;
+&lt;p&gt;下列叙述正确的是 &lt;span class=&#34;gap&#34;&gt;&lt;/span&gt; 。&lt;/p&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;虚函数只能定义成无参函数&lt;/li&gt;
+&lt;li&gt;虚函数不能有返回值&lt;/li&gt;
+&lt;li&gt;能定义虚构造函数&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;A、B、C 都不对&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz fill&#34;&gt;
+&lt;p&gt;如果定义  &lt;code&gt;int e=8; double f=6.4, g=8.9;&lt;/code&gt; ，则表达式  &lt;code&gt;f+int (e/3*int (f+g)/2)%4&lt;/code&gt;  的值为 &lt;span class=&#34;gap&#34;&gt;9.4&lt;/span&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意运算顺序和数据类型&lt;br&gt;
+&lt;span class=&#34;mistake&#34;&gt; 8.4&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
  ]]></description>
         </item>
         <item>

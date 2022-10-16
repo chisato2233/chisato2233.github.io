@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>Hexo • Posts by &#34;原神&#34; category</title>
+    <link href="http://example.com" />
+    <updated>2022-10-16T13:15:47.887Z</updated>
+    <entry>
+        <id>http://example.com/2022/10/16/genshine-impact/%E5%85%83%E7%B4%A0%E8%AE%BA/</id>
+        <title>元素论</title>
+        <link rel="alternate" href="http://example.com/2022/10/16/genshine-impact/%E5%85%83%E7%B4%A0%E8%AE%BA/"/>
+        <content type="html">&lt;h1 id=&#34;元素论&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#元素论&#34;&gt;#&lt;/a&gt; 元素论&lt;/h1&gt;
+&lt;h2 id=&#34;第一章绪论&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第一章绪论&#34;&gt;#&lt;/a&gt; 第一章：绪论&lt;/h2&gt;
+&lt;h3 id=&#34;11-元素简介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11-元素简介&#34;&gt;#&lt;/a&gt; 1.1 元素简介&lt;/h3&gt;
+</content>
+        <updated>2022-10-16T13:15:47.887Z</updated>
+    </entry>
+</feed>
