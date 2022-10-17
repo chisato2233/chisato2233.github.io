@@ -5,8 +5,8 @@
     "home_page_url": "http://example.com",
     "items": [
         {
-            "id": "http://example.com/2022/10/16/genshine-impact/%E5%85%83%E7%B4%A0%E8%AE%BA/",
-            "url": "http://example.com/2022/10/16/genshine-impact/%E5%85%83%E7%B4%A0%E8%AE%BA/",
+            "id": "http://example.com/genshine-impact/%E5%85%83%E7%B4%A0%E8%AE%BA/",
+            "url": "http://example.com/genshine-impact/%E5%85%83%E7%B4%A0%E8%AE%BA/",
             "title": "元素论",
             "date_published": "2022-10-16T13:15:47.887Z",
             "content_html": "<h1 id=\"元素论\"><a class=\"markdownIt-Anchor\" href=\"#元素论\">#</a> 元素论</h1>\n<h2 id=\"第一章绪论\"><a class=\"markdownIt-Anchor\" href=\"#第一章绪论\">#</a> 第一章：绪论</h2>\n<h3 id=\"11-元素简介\"><a class=\"markdownIt-Anchor\" href=\"#11-元素简介\">#</a> 1.1 元素简介</h3>\n",

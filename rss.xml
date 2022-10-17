@@ -5,12 +5,114 @@
         <link>http://example.com</link>
         <description></description>
         <language>en</language>
-        <pubDate>Sun, 16 Oct 2022 21:15:47 +0800</pubDate>
-        <lastBuildDate>Sun, 16 Oct 2022 21:15:47 +0800</lastBuildDate>
+        <pubDate>Mon, 17 Oct 2022 12:40:39 +0800</pubDate>
+        <lastBuildDate>Mon, 17 Oct 2022 12:40:39 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">http://example.com/2022/10/16/genshine-impact/%E5%85%83%E7%B4%A0%E8%AE%BA/</guid>
+            <guid isPermalink="true">http://example.com/games/yuansheng/%E5%8E%9F%E5%9C%A3%E5%9F%BA%E6%9C%AC%E4%BD%93%E7%B3%BB%E8%AF%B4%E6%98%8E01/</guid>
+            <title>原圣基本规则体系说明</title>
+            <link>http://example.com/games/yuansheng/%E5%8E%9F%E5%9C%A3%E5%9F%BA%E6%9C%AC%E4%BD%93%E7%B3%BB%E8%AF%B4%E6%98%8E01/</link>
+            <pubDate>Mon, 17 Oct 2022 12:40:39 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
+&lt;p&gt;原圣是基于原神和三国杀结合的卡牌对战类游戏，体系主体为原神和三国杀的基本规则，因此在阅读本体系说明之前，作者建议对上述两款游戏不了解的读者尝试花费二十分钟初步掌握基本名词与概念，受限于篇幅，某些方面作者可能不会过分详细的指明。&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;我们强烈建议读者不要在对于三国杀和原神基本规则一知半解的前提下阅读正文。&lt;/u&gt;&lt;/p&gt;
+&lt;h1 id=&#34;元素&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#元素&#34;&gt;#&lt;/a&gt; 元素&lt;/h1&gt;
+&lt;h2 id=&#34;元素种类&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#元素种类&#34;&gt;#&lt;/a&gt; 元素种类&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;与原神对应的，本游戏所使用的元素种类同样为 &amp;quot;火水冰雷草岩风&amp;quot; 七种。&lt;/li&gt;
+&lt;li&gt;原圣中的每个元素都映射实体牌中的一种属性。这些元素依照下面的规则做映射：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;​						火   					红桃 [花色]&lt;br&gt;
+​						水   					梅花 [花色]&lt;br&gt;
+​						冰   					方片 [花色]&lt;br&gt;
+​						雷   					黑桃 [花色]&lt;br&gt;
+​						草   					A~4 [点数]&lt;br&gt;
+​						风   					5~8 [点数]&lt;br&gt;
+​						岩   					9~K [点数]&lt;/p&gt;
+&lt;p&gt;​				诸如上述的映射具有这样的意义：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在角色试图触发技能时，他们所需要用于支付代价的牌会根据他们的所属元素而限定在某一类之上，如此以便于通过控制牌堆结构进一步控制某种元素的整体角色强度。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;方便进行元素附着时的判断。(这一点的本意会在 1.2 小节会具体告知读者)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;原圣规则体系不会删除和增加任何元素 —— 除非原神官方明确对于元素种类方面做出改动。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;元素伤害&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#元素伤害&#34;&gt;#&lt;/a&gt; 元素伤害&lt;/h2&gt;
+&lt;h3 id=&#34;物理伤害&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#物理伤害&#34;&gt;#&lt;/a&gt; 物理伤害&lt;/h3&gt;
+&lt;p&gt;本小节的名称虽然为 &amp;quot;元素伤害&amp;quot;，但是三国杀与原神中的 &amp;quot;非元素伤害&amp;quot; 定义有所不同，规则集没有必要特别的建立一个小节阐明 &amp;quot;非元素伤害&amp;quot; 的性质，因此将其归入本小节中&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;物理伤害在游戏中出现频率极低，方便起见，在任何场合下单独出现的名词 &amp;quot;伤害&amp;quot;，均等效替换为 &amp;quot;元素伤害&amp;quot;。&lt;/li&gt;
+&lt;li&gt;由于目前原神中未出现单角色能够触发多种元素伤害的前提，因此在角色技能描述的场合下出现的 &amp;quot;元素伤害&amp;quot; 均替换为与该角色同名的 &amp;quot;X 元素伤害&amp;quot;。&lt;/li&gt;
+&lt;li&gt;在极个别场合下为了统称 &amp;quot;物理伤害&amp;quot; 与 &amp;quot;元素伤害&amp;quot;，我们将包含二者的集合称为 &amp;quot;宏伤害&amp;quot;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;元素伤害-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#元素伤害-2&#34;&gt;#&lt;/a&gt; 元素伤害&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;元素伤害的种类与元素种类一一对应，在此本文不再赘述&lt;/li&gt;
+&lt;li&gt;元素伤害与元素附着是两个独立概念，在原圣的某些场合下会出现受到元素伤害的同时触发反应，因此可能会给某些玩家产生误解，在此特别强调&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;元素附着&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#元素附着&#34;&gt;#&lt;/a&gt; 元素附着&lt;/h2&gt;
+&lt;h3 id=&#34;元素附着区&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#元素附着区&#34;&gt;#&lt;/a&gt; 元素附着区&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;元素附着区是原圣中特有的区域，替换了三国杀中的判定区，此区域用于存放角色的当前元素附着，方便起见，后文中简称的 &amp;quot;元素区&amp;quot; 代指元素附着区&lt;/li&gt;
+&lt;li&gt;元素区有这样的性质：
+&lt;ol&gt;
+&lt;li&gt;同名元素附着最多存在两张，后手附着叠放于先手附着之上&lt;/li&gt;
+&lt;li&gt;回合结束时，清空元素区所有竖置的元素附着&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;附着牌&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#附着牌&#34;&gt;#&lt;/a&gt; 附着牌&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;附着牌是原圣中的一种特有概念，附着牌是一种可以进行附着的牌，他用于提示玩家一名角色的元素附着状态。&lt;/li&gt;
+&lt;li&gt;为保证叙述的流畅性，我们会在一些场合在不产生歧义的前提下，将附着牌与元素附着等价&lt;/li&gt;
+&lt;li&gt;玩家可以将手中某张满足映射，且所映射元素种类与角色同名的任意牌当做附着牌。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;附着&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#附着&#34;&gt;#&lt;/a&gt; 附着&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;附着是原圣中的一种行为，他代指改变角色元素区状态的动作。玩家可以通过下面的方式进行附着行动：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  	&amp;lt;u&amp;gt;玩家可以将手中某张满足映射，且所映射元素种类与角色同名的任意牌声明为附着牌。出牌阶段限一次，玩家可以以此方式声明的附着牌竖置入一名其他角色的元素区。&amp;lt;/u&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;附着的方式不止一种，角色造成伤害时，某些情况下也可以进行短暂的临时附着。以此法产生的临时附着遵循以下规律：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;每名玩家都拥有五条 “附着记录空间”，将他们分别称为 A 空间，B 空间，C 空间，D 空间和 E 空间。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;每条记录空间最多存放一次临时附着的记录。玩家造成伤害前，会根据规则调用一条指定的记录空间。如果此空间已经被占用，则此次伤害将不会触发临时附着。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;回合开始时，清空所有记录空间的临时附着记录。玩家造成伤害前，没有特别说明的情况下，进行临时元素附着并将此次附着记录于 A 空间中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;某些角色的技能可以调用剩下的四种空间。标明 “独立附着” 的伤害会从 A 空间开始遍历，直到找到空空间为止。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;成功临时附着的伤害结算完毕后，清空临时附着，因此这种附着不会留存进元素区。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;临时附着的规则拥有下面的更为通俗的解释：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在通常的状态下，每名角色每轮只能进行一次临时附着。&lt;/li&gt;
+&lt;li&gt;某些角色技能可以额外触发临时附着，这种额外触发的附着也只能生效一次。&lt;/li&gt;
+&lt;li&gt;带有 “独立附着” 的技能允许角色多次地触发元素附着，这类技能会占用上述两种手段所触发临时附着的次数。&lt;/li&gt;
+&lt;li&gt;每名角色每轮最多五次临时附着。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/genshine-impact/%E5%85%83%E7%B4%A0%E8%AE%BA/</guid>
             <title>元素论</title>
-            <link>http://example.com/2022/10/16/genshine-impact/%E5%85%83%E7%B4%A0%E8%AE%BA/</link>
+            <link>http://example.com/genshine-impact/%E5%85%83%E7%B4%A0%E8%AE%BA/</link>
             <pubDate>Sun, 16 Oct 2022 21:15:47 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;元素论&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#元素论&#34;&gt;#&lt;/a&gt; 元素论&lt;/h1&gt;
 &lt;h2 id=&#34;第一章绪论&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第一章绪论&#34;&gt;#&lt;/a&gt; 第一章：绪论&lt;/h2&gt;
@@ -18,13 +120,11 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/10/12/chisato-is-my-wife/</guid>
-            <title></title>
-            <link>http://example.com/2022/10/12/chisato-is-my-wife/</link>
+            <guid isPermalink="true">http://example.com/example/chisato-is-my-wife/</guid>
+            <title>练习题与答案</title>
+            <link>http://example.com/example/chisato-is-my-wife/</link>
             <pubDate>Wed, 12 Oct 2022 22:39:30 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;title: 练习题与答案&lt;/p&gt;
-&lt;p&gt;quiz: true&lt;/p&gt;
-&lt;ol&gt;
+            <description><![CDATA[ &lt;ol&gt;
 &lt;li class=&#34;quiz true&#34;&gt;
 &lt;p&gt;编译时多态主要指运算符重载与函数重载，而运行时多态主要指虚函数。&lt;/p&gt;
 &lt;/li&gt;
@@ -67,9 +167,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2022/10/12/chisato%E4%B8%96%E7%95%8C%E7%AC%AC%E4%B8%80%E5%8F%AF%E7%88%B1%EF%BC%81%EF%BC%81%EF%BC%81/</guid>
+            <guid isPermalink="true">http://example.com/example/chisato%E4%B8%96%E7%95%8C%E7%AC%AC%E4%B8%80%E5%8F%AF%E7%88%B1%EF%BC%81%EF%BC%81%EF%BC%81/</guid>
             <title>chisato世界第一可爱！！！</title>
-            <link>http://example.com/2022/10/12/chisato%E4%B8%96%E7%95%8C%E7%AC%AC%E4%B8%80%E5%8F%AF%E7%88%B1%EF%BC%81%EF%BC%81%EF%BC%81/</link>
+            <link>http://example.com/example/chisato%E4%B8%96%E7%95%8C%E7%AC%AC%E4%B8%80%E5%8F%AF%E7%88%B1%EF%BC%81%EF%BC%81%EF%BC%81/</link>
             <pubDate>Wed, 12 Oct 2022 18:42:08 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;太棒了我终于能写点东西在这个上面了现在这行真的是个markdown的标题新式吗&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#太棒了我终于能写点东西在这个上面了现在这行真的是个markdown的标题新式吗&#34;&gt;#&lt;/a&gt; 太棒了，我终于能写点东西在这个上面了 (现在这行真的是个 markdown 的标题新式吗。。）&lt;/h3&gt;
 &lt;p&gt;这感觉真不错，你会喜欢这种感觉的，即使我觉得用 vim 写博客不是个好的体验。。。&lt;br&gt;

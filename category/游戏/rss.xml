@@ -1,14 +1,18 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
-    <title>Hexo</title>
-    <link href="http://example.com" />
-    <updated>2022-10-17T04:40:39.105Z</updated>
-    <entry>
-        <id>http://example.com/games/yuansheng/%E5%8E%9F%E5%9C%A3%E5%9F%BA%E6%9C%AC%E4%BD%93%E7%B3%BB%E8%AF%B4%E6%98%8E01/</id>
-        <title>原圣基本规则体系说明</title>
-        <link rel="alternate" href="http://example.com/games/yuansheng/%E5%8E%9F%E5%9C%A3%E5%9F%BA%E6%9C%AC%E4%BD%93%E7%B3%BB%E8%AF%B4%E6%98%8E01/"/>
-        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
+<rss version="2.0">
+    <channel>
+        <title>Hexo • Posts by &#34;游戏&#34; category</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>en</language>
+        <pubDate>Mon, 17 Oct 2022 12:40:39 +0800</pubDate>
+        <lastBuildDate>Mon, 17 Oct 2022 12:40:39 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/games/yuansheng/%E5%8E%9F%E5%9C%A3%E5%9F%BA%E6%9C%AC%E4%BD%93%E7%B3%BB%E8%AF%B4%E6%98%8E01/</guid>
+            <title>原圣基本规则体系说明</title>
+            <link>http://example.com/games/yuansheng/%E5%8E%9F%E5%9C%A3%E5%9F%BA%E6%9C%AC%E4%BD%93%E7%B3%BB%E8%AF%B4%E6%98%8E01/</link>
+            <pubDate>Mon, 17 Oct 2022 12:40:39 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
 &lt;p&gt;原圣是基于原神和三国杀结合的卡牌对战类游戏，体系主体为原神和三国杀的基本规则，因此在阅读本体系说明之前，作者建议对上述两款游戏不了解的读者尝试花费二十分钟初步掌握基本名词与概念，受限于篇幅，某些方面作者可能不会过分详细的指明。&lt;/p&gt;
 &lt;p&gt;&lt;u&gt;我们强烈建议读者不要在对于三国杀和原神基本规则一知半解的前提下阅读正文。&lt;/u&gt;&lt;/p&gt;
 &lt;h1 id=&#34;元素&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#元素&#34;&gt;#&lt;/a&gt; 元素&lt;/h1&gt;
@@ -103,74 +107,7 @@
 &lt;li&gt;每名角色每轮最多五次临时附着。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
-</content>
-        <updated>2022-10-17T04:40:39.105Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/genshine-impact/%E5%85%83%E7%B4%A0%E8%AE%BA/</id>
-        <title>元素论</title>
-        <link rel="alternate" href="http://example.com/genshine-impact/%E5%85%83%E7%B4%A0%E8%AE%BA/"/>
-        <content type="html">&lt;h1 id=&#34;元素论&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#元素论&#34;&gt;#&lt;/a&gt; 元素论&lt;/h1&gt;
-&lt;h2 id=&#34;第一章绪论&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第一章绪论&#34;&gt;#&lt;/a&gt; 第一章：绪论&lt;/h2&gt;
-&lt;h3 id=&#34;11-元素简介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11-元素简介&#34;&gt;#&lt;/a&gt; 1.1 元素简介&lt;/h3&gt;
-</content>
-        <updated>2022-10-16T13:15:47.887Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/example/chisato-is-my-wife/</id>
-        <title>练习题与答案</title>
-        <link rel="alternate" href="http://example.com/example/chisato-is-my-wife/"/>
-        <content type="html">&lt;ol&gt;
-&lt;li class=&#34;quiz true&#34;&gt;
-&lt;p&gt;编译时多态主要指运算符重载与函数重载，而运行时多态主要指虚函数。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li class=&#34;quiz multi&#34;&gt;
-&lt;p&gt;有基类  &lt;code&gt;SHAPE&lt;/code&gt; ，派生类  &lt;code&gt;CIRCLE&lt;/code&gt; ，声明如下变量： &lt;/p&gt;
- &lt;figure class=&#34;highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs cpp&#34;&gt;SHAPE shape1,*p1;&lt;br&gt;CIRCLE circle1,*q1;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;下列哪些项是 “派生类对象替换基类对象”。&lt;/p&gt;
-&lt;ul class=&#34;options&#34;&gt;
-&lt;li class=&#34;correct&#34;&gt;&lt;code&gt;p1=&amp;amp;circle1;&lt;/code&gt; &lt;/li&gt;
-&lt;li&gt;&lt;code&gt;q1=&amp;amp;shape1;&lt;/code&gt;&lt;/li&gt;
-&lt;li class=&#34;correct&#34;&gt;&lt;code&gt;shape1=circle1;&lt;/code&gt; &lt;/li&gt;
-&lt;li&gt;&lt;code&gt;circle1=shape1;&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;ul class=&#34;options&#34;&gt;
-&lt;li&gt;✔️ 令基类对象的指针指向派生类对象&lt;/li&gt;
-&lt;li&gt;❌ 派生类指针指向基类的引用&lt;/li&gt;
-&lt;li&gt;✔️ 派生类对象给基类对象赋值&lt;/li&gt;
-&lt;li&gt;❌ 基类对象给派生类对象赋值&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li class=&#34;quiz&#34;&gt;
-&lt;p&gt;下列叙述正确的是 &lt;span class=&#34;gap&#34;&gt;&lt;/span&gt; 。&lt;/p&gt;
-&lt;ul class=&#34;options&#34;&gt;
-&lt;li&gt;虚函数只能定义成无参函数&lt;/li&gt;
-&lt;li&gt;虚函数不能有返回值&lt;/li&gt;
-&lt;li&gt;能定义虚构造函数&lt;/li&gt;
-&lt;li class=&#34;correct&#34;&gt;A、B、C 都不对&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li class=&#34;quiz fill&#34;&gt;
-&lt;p&gt;如果定义  &lt;code&gt;int e=8; double f=6.4, g=8.9;&lt;/code&gt; ，则表达式  &lt;code&gt;f+int (e/3*int (f+g)/2)%4&lt;/code&gt;  的值为 &lt;span class=&#34;gap&#34;&gt;9.4&lt;/span&gt;。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;注意运算顺序和数据类型&lt;br&gt;
-&lt;span class=&#34;mistake&#34;&gt; 8.4&lt;/span&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-        <updated>2022-10-12T14:39:30.375Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/example/chisato%E4%B8%96%E7%95%8C%E7%AC%AC%E4%B8%80%E5%8F%AF%E7%88%B1%EF%BC%81%EF%BC%81%EF%BC%81/</id>
-        <title>chisato世界第一可爱！！！</title>
-        <link rel="alternate" href="http://example.com/example/chisato%E4%B8%96%E7%95%8C%E7%AC%AC%E4%B8%80%E5%8F%AF%E7%88%B1%EF%BC%81%EF%BC%81%EF%BC%81/"/>
-        <content type="html">&lt;h3 id=&#34;太棒了我终于能写点东西在这个上面了现在这行真的是个markdown的标题新式吗&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#太棒了我终于能写点东西在这个上面了现在这行真的是个markdown的标题新式吗&#34;&gt;#&lt;/a&gt; 太棒了，我终于能写点东西在这个上面了 (现在这行真的是个 markdown 的标题新式吗。。）&lt;/h3&gt;
-&lt;p&gt;这感觉真不错，你会喜欢这种感觉的，即使我觉得用 vim 写博客不是个好的体验。。。&lt;br&gt;
-但是。。你也不会特别讨厌这种新奇的东西不是吗？&lt;/p&gt;
-</content>
-        <updated>2022-10-12T10:42:08.000Z</updated>
-    </entry>
-</feed>
+ ]]></description>
+        </item>
+    </channel>
+</rss>
