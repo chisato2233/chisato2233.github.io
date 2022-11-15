@@ -74,7 +74,7 @@
       <i class="ic i-pen"></i>
     </span>
     <span class="text">Symbols count in article</span>
-    <span>1.2k</span>
+    <span>2.3k</span>
     <span class="text">words</span>
   </span>
   <span class="item" title="Reading time">
@@ -82,7 +82,7 @@
       <i class="ic i-clock"></i>
     </span>
     <span class="text">Reading time</span>
-    <span>1 mins.</span>
+    <span>2 mins.</span>
   </span>
 </div>
 
@@ -115,12 +115,12 @@
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giclhfehz7j20zk0m8u0x.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gipeuv80yoj20zk0m8kjl.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gipeun65urj20zk0m81ii.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giclh5u05ej20zk0m87df.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giph4fomxoj20zk0m8axp.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gipey84bjtj20zk0m8hdt.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipeun65urj20zk0m81ii.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclfw2t96j20zk0m8x6p.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclil3m4ej20zk0m8tn8.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gicit4jrvuj20zk0m8785.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipeybxm1pj20zk0m8niv.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipey84bjtj20zk0m8hdt.jpg"></li>
         </ul>
       </div>
     </header>
@@ -172,17 +172,25 @@
 <h2 id="数据的存储与调用"><a class="markdownIt-Anchor" href="#数据的存储与调用">#</a> 数据的存储与调用</h2>
 <p>​	高精度要求你所能存储的数尽可能的大，不妨直接开一个数组来存这样的大麻烦。数组中每一项只存储这个数字的一位，这样的好处是就算数字达到了 10000 位之大他都能塞得进数组里。</p>
 <p>​	为了方便让这个家伙进位，我们应该让他倒着在数组里躺着。自然在调用的时候也得倒着来</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;iostream&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;string&gt;</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><br><span class="hljs-type">int</span> num[<span class="hljs-number">10001</span>]=&#123;<span class="hljs-number">0</span>&#125;;<br><span class="hljs-type">int</span> len;<br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    string s;<br>    cin&gt;&gt;s;<br>    len=s.<span class="hljs-built_in">length</span>();<br>    <br>    <span class="hljs-comment">//读取：（我不喜欢把东西放在数组的最开头，所以你会发现这里的i&gt;=1）</span><br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=len;i&gt;=<span class="hljs-number">1</span>;i++)<br>    &#123;<br>        num[i]=s[len-i];<br>    &#125;<br>    <br>    <span class="hljs-comment">//输出：</span><br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=len;i&gt;=<span class="hljs-number">1</span>;i++)<br>    &#123;<br>        cout&lt;&lt;num[i];<br>    &#125;<br>    <br>&#125;<br></code></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><code class="hljs c++"><br><span class="hljs-comment">//高精度整数定义</span><br><span class="hljs-keyword">struct</span> <span class="hljs-title class_">BigInt</span> &#123;<br>	<span class="hljs-type">int</span> len = <span class="hljs-number">0</span>;<span class="hljs-comment">//长度</span><br>	<span class="hljs-type">int</span> num[MAX] = &#123;<span class="hljs-number">0</span>&#125;;<span class="hljs-comment">//具体的数字</span><br><br>	<span class="hljs-comment">//初始化，将一个整数转化为高精度</span><br>	<span class="hljs-built_in">BigInt</span>(<span class="hljs-type">int</span> x = <span class="hljs-number">0</span>) <br>    &#123;<br>		<span class="hljs-built_in">memset</span>(num, <span class="hljs-number">0</span>, <span class="hljs-built_in">sizeof</span>(num));<br>		<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; x; i++, len++) <br>        &#123;<br>			num[i] = x % <span class="hljs-number">10</span>;<br>			x /= <span class="hljs-number">10</span>;<br>		&#125;<br>	&#125;<br><br>	<span class="hljs-comment">//重载[]，让他直接访问BigInt的数据</span><br>	<span class="hljs-type">int</span> &amp;<span class="hljs-keyword">operator</span>[](<span class="hljs-type">int</span> i) <br>    &#123;<br>		<span class="hljs-keyword">return</span> num[i];<br>	&#125;<br><br>	<span class="hljs-comment">//进位与更新长度</span><br>	<span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">jinwei</span><span class="hljs-params">()</span> </span><br><span class="hljs-function">    </span>&#123;<br>		<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= MAX; i++) <br>        &#123;<br>			<span class="hljs-keyword">if</span> (num[i] &gt; <span class="hljs-number">9</span>)<br>            &#123;<br>				num[i + <span class="hljs-number">1</span>] += num[i] / <span class="hljs-number">10</span>;<br>				num[i] %= <span class="hljs-number">10</span>;<br>				len++;<br>			&#125;<br>		&#125;<br>		<span class="hljs-keyword">while</span> (!num[len])<br>        &#123;<br>			len--;<br>		&#125;<br>	&#125;<br><br>	<span class="hljs-comment">//输入</span><br>	<span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">scan</span><span class="hljs-params">(string temp)</span> </span><br><span class="hljs-function">    </span>&#123;<br>		cin &gt;&gt; temp;<br>		len = temp.<span class="hljs-built_in">length</span>();<br>		<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>; i &lt; len; i++)<br>        &#123;<br>			num[len - i] = temp[i] - <span class="hljs-string">&#x27;0&#x27;</span>;<br>		&#125;<br>	&#125;<br><br>	<span class="hljs-comment">//输出</span><br>	<span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">print</span><span class="hljs-params">()</span> </span><br><span class="hljs-function">    </span>&#123;<br>		<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = len; i &gt;= <span class="hljs-number">1</span>; i--) <br>        &#123;<br>			cout &lt;&lt; num[i];<br>		&#125;<br>	&#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
+<h2 id="赋值"><a class="markdownIt-Anchor" href="#赋值">#</a> 赋值</h2>
+<p>重载 =，让 = 右边的 BigInt 赋值给左边。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs c++"><br><span class="hljs-type">void</span> <span class="hljs-keyword">operator</span>= (BigInt&amp; left,BigInt right)<br>&#123;<br>    left.len=right.len;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=<span class="hljs-number">1</span>;i&lt;=right.len;i++)<br>    &#123;<br>        left[i]=right[i];<br>    &#125;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=right.len;i&lt;=left.len;i++)<br>    &#123;<br>        left[i]=<span class="hljs-number">0</span>;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 <h2 id="加法"><a class="markdownIt-Anchor" href="#加法">#</a> 加法</h2>
 <p>​	高精度的加法分为两种情况，与普通数字相加或与同样的高精度相加。。但是二者的技术细节大致相等</p>
 <h3 id="与普通数字相加"><a class="markdownIt-Anchor" href="#与普通数字相加">#</a> 与普通数字相加</h3>
 <p>​	我们的高精度数字是一个数组，这意味着一个 “位” 上不止能存 1~9。。如果只是普通的数字，你大可以将他放在高精度的末尾，然后进行再一个个进位。。当然，我跟喜欢再进位的过程中更新一下高精度的长度。</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">UpSize</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=<span class="hljs-number">1</span>;i&lt;=len;i++)<br>    &#123;<br>        num[i+<span class="hljs-number">1</span>]+=nums[i]/<span class="hljs-number">10</span>;<br>        num[i]%<span class="hljs-number">10</span>;<br>        <span class="hljs-keyword">if</span>(num[len+<span class="hljs-number">1</span>])<br>        &#123;<br>            len++;<br>        &#125;<br>    &#125;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Add</span><span class="hljs-params">(<span class="hljs-type">int</span> n)</span></span><br><span class="hljs-function"></span>&#123;<br>    num[<span class="hljs-number">1</span>]+=n;<br>    <span class="hljs-built_in">UpSize</span>();<br>&#125;<br></code></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs c++"><br>BigInt <span class="hljs-keyword">operator</span>+ (BigInt a,<span class="hljs-type">int</span> b)<br>&#123;<br>    BigInt r;<br>    r=a;<br>    r.len=a.len+<span class="hljs-number">1</span>;<br>    r[<span class="hljs-number">1</span>]+=n;<br>    r.<span class="hljs-built_in">jinwei</span>();<br>    <span class="hljs-keyword">return</span> r;<br>&#125;<br></code></pre></td></tr></table></figure>
 <h3 id="与高精度相加"><a class="markdownIt-Anchor" href="#与高精度相加">#</a> 与高精度相加</h3>
 <p>​	与高精度相加似乎与普通数字相加的区别不大 —— 你只需将加这个动作在每个位数上都来上一遍，最后进行进位即可。。</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">AddPlus</span> <span class="hljs-params">(<span class="hljs-type">int</span>* a,<span class="hljs-type">int</span> len_a,<span class="hljs-type">int</span>* b,<span class="hljs-type">int</span> len_b)</span></span><br><span class="hljs-function"></span>&#123;<br>    len=len_a&gt;len_b?len_a:len_b;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=<span class="hljs-number">1</span>;i&lt;=len;i++)<br>    &#123;<br>        num[i]=a[i]+b[i];<br>    &#125;<br>    UpSize;<br>&#125;<br></code></pre></td></tr></table></figure>
-<h2 id="减法"><a class="markdownIt-Anchor" href="#减法">#</a> 减法</h2>
-<p>​	减法似乎与加法没有本质区别，你只需要将上述的加数添一个负号即可。。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><br>BigInt <span class="hljs-keyword">operator</span>+ (BigInt a, BigInt b)<br>&#123;<br>	BigInt r;<br>	<span class="hljs-type">int</span> l = a.len &gt; b.len ? a.len : b.len;<br>	l += <span class="hljs-number">1</span>;<br>	r.len = l;<br>	<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= l; i++) <br>    &#123;<br>		r[i] = a[i] + b[i];<br>	&#125;<br>	r.<span class="hljs-built_in">jinwei</span>();<br>	<span class="hljs-keyword">return</span> r;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="乘法"><a class="markdownIt-Anchor" href="#乘法">#</a> 乘法</h2>
+<h3 id="与普通数字相乘"><a class="markdownIt-Anchor" href="#与普通数字相乘">#</a> 与普通数字相乘</h3>
+<p>​	与普通数字相乘即为每个数字乘上一个 n，不再赘述。。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><br><span class="hljs-comment">//高乘单</span><br>BigInt <span class="hljs-keyword">operator</span>* (BigInt a, <span class="hljs-type">int</span> n) <br>&#123;<br>	BigInt r;<br>	<span class="hljs-type">int</span> l = a.len;<br>	r.len = l;<br>	<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= a.len; i++) <br>    &#123;<br>		r[i] = a[i] * n;<br>	&#125;<br>	r.<span class="hljs-built_in">jinwei</span>();<br>	<span class="hljs-keyword">return</span> r;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h3 id="与高精度相乘"><a class="markdownIt-Anchor" href="#与高精度相乘">#</a> 与高精度相乘</h3>
+<p>与高精度相乘时，回忆竖式乘法，可以等效为与多个普通数字相乘之后再错位相加。错位相加这一步刚好可以用 BigInt 的 jinwei () 等效实现，代码如下</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><br><span class="hljs-comment">//高乘高</span><br>BigInt <span class="hljs-keyword">operator</span>* (BigInt a, BigInt b) <br>&#123;<br>	BigInt r;<br>	r.len = a.len + b.len;<br>	<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= a.len; i++) <br>    &#123;<br>		<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= b.len; j++) <br>        &#123;<br>			r[i + j - <span class="hljs-number">1</span>] += a[i] * b[j];<br>		&#125;<br>	&#125;<br>	r.<span class="hljs-built_in">jinwei</span>();<br>	<span class="hljs-keyword">return</span> r;<br>&#125;<br></code></pre></td></tr></table></figure>
 
   </div>
 
@@ -194,7 +202,7 @@
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">Edited on</span>
-    <time title="Modified: 2022-11-14 22:36:35" itemprop="dateModified" datetime="2022-11-14T22:36:35+08:00">2022-11-14</time>
+    <time title="Modified: 2022-11-14 23:30:17" itemprop="dateModified" datetime="2022-11-14T23:30:17+08:00">2022-11-14</time>
   </span>
 </div>
 
@@ -249,7 +257,7 @@
     <div class="item left">
       
 
-  <a href="/computer-science/c/%E4%BD%8D%E8%BF%90%E7%AE%97/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giclxp31goj20zk0m8qv5.jpg" title="位运算">
+  <a href="/computer-science/c/%E4%BD%8D%E8%BF%90%E7%AE%97/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gicljgocqbj20zk0m8e81.jpg" title="位运算">
   <span class="type">Previous Post</span>
   <span class="category"><i class="ic i-flag"></i> 计算机科学，C语言</span>
   <h3>位运算</h3>
@@ -259,7 +267,7 @@
     <div class="item right">
       
 
-  <a href="/computer-science/c/%E5%BF%AB%E9%80%9F%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giclgi503lj20zk0m8hdt.jpg" title="快速傅里叶变换">
+  <a href="/computer-science/c/%E5%BF%AB%E9%80%9F%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gicitht3xtj20zk0m8k5v.jpg" title="快速傅里叶变换">
   <span class="type">Next Post</span>
   <span class="category"><i class="ic i-flag"></i> 计算机科学，C语言</span>
   <h3>快速傅里叶变换</h3>
@@ -281,7 +289,7 @@
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="Contents">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%AB%98%E7%B2%BE%E5%BA%A6"><span class="toc-number">1.</span> <span class="toc-text"> 高精度</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A6%82%E5%BF%B5"><span class="toc-number">1.1.</span> <span class="toc-text"> 概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%9A%84%E5%AD%98%E5%82%A8%E4%B8%8E%E8%B0%83%E7%94%A8"><span class="toc-number">1.2.</span> <span class="toc-text"> 数据的存储与调用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8A%A0%E6%B3%95"><span class="toc-number">1.3.</span> <span class="toc-text"> 加法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8E%E6%99%AE%E9%80%9A%E6%95%B0%E5%AD%97%E7%9B%B8%E5%8A%A0"><span class="toc-number">1.3.1.</span> <span class="toc-text"> 与普通数字相加</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8E%E9%AB%98%E7%B2%BE%E5%BA%A6%E7%9B%B8%E5%8A%A0"><span class="toc-number">1.3.2.</span> <span class="toc-text"> 与高精度相加</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%8F%E6%B3%95"><span class="toc-number">1.4.</span> <span class="toc-text"> 减法</span></a></li></ol></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%AB%98%E7%B2%BE%E5%BA%A6"><span class="toc-number">1.</span> <span class="toc-text"> 高精度</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A6%82%E5%BF%B5"><span class="toc-number">1.1.</span> <span class="toc-text"> 概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%9A%84%E5%AD%98%E5%82%A8%E4%B8%8E%E8%B0%83%E7%94%A8"><span class="toc-number">1.2.</span> <span class="toc-text"> 数据的存储与调用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B5%8B%E5%80%BC"><span class="toc-number">1.3.</span> <span class="toc-text"> 赋值</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8A%A0%E6%B3%95"><span class="toc-number">1.4.</span> <span class="toc-text"> 加法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8E%E6%99%AE%E9%80%9A%E6%95%B0%E5%AD%97%E7%9B%B8%E5%8A%A0"><span class="toc-number">1.4.1.</span> <span class="toc-text"> 与普通数字相加</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8E%E9%AB%98%E7%B2%BE%E5%BA%A6%E7%9B%B8%E5%8A%A0"><span class="toc-number">1.4.2.</span> <span class="toc-text"> 与高精度相加</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B9%98%E6%B3%95"><span class="toc-number">1.5.</span> <span class="toc-text"> 乘法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8E%E6%99%AE%E9%80%9A%E6%95%B0%E5%AD%97%E7%9B%B8%E4%B9%98"><span class="toc-number">1.5.1.</span> <span class="toc-text"> 与普通数字相乘</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8E%E9%AB%98%E7%B2%BE%E5%BA%A6%E7%9B%B8%E4%B9%98"><span class="toc-number">1.5.2.</span> <span class="toc-text"> 与高精度相乘</span></a></li></ol></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="Related">
         <ul>
@@ -386,7 +394,7 @@
 <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%EF%BC%8CC%E8%AF%AD%E8%A8%80/" title="In 计算机科学，C语言">计算机科学，C语言</a>
 </div>
 
-    <span><a href="/computer-science/c/%E9%AB%98%E7%B2%BE%E5%BA%A6/" title="高精度算法">高精度算法</a></span>
+    <span><a href="/computer-science/c/%E5%BF%AB%E9%80%9F%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2/" title="快速傅里叶变换">快速傅里叶变换</a></span>
   </li>
 
       
@@ -396,26 +404,6 @@
 </div>
 
     <span><a href="/example/%E5%9C%A8%E8%BF%99%E9%87%8C%EF%BC%8C%E5%BE%80%E5%93%AA%E7%9C%8B/" title="在这里在这里">在这里在这里</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/genshine-impact/" title="In 原神">原神</a>
-</div>
-
-    <span><a href="/genshine-impact/%E5%85%83%E7%B4%A0%E8%AE%BA/" title="元素论">元素论</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%EF%BC%8CC%E8%AF%AD%E8%A8%80/" title="In 计算机科学，C语言">计算机科学，C语言</a>
-</div>
-
-    <span><a href="/computer-science/c/%E4%BD%8D%E8%BF%90%E7%AE%97/" title="位运算">位运算</a></span>
   </li>
 
       
@@ -435,7 +423,27 @@
 <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%EF%BC%8CC%E8%AF%AD%E8%A8%80/" title="In 计算机科学，C语言">计算机科学，C语言</a>
 </div>
 
-    <span><a href="/computer-science/c/%E5%BF%AB%E9%80%9F%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2/" title="快速傅里叶变换">快速傅里叶变换</a></span>
+    <span><a href="/computer-science/c/%E4%BD%8D%E8%BF%90%E7%AE%97/" title="位运算">位运算</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/genshine-impact/" title="In 原神">原神</a>
+</div>
+
+    <span><a href="/genshine-impact/%E5%85%83%E7%B4%A0%E8%AE%BA/" title="元素论">元素论</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%EF%BC%8CC%E8%AF%AD%E8%A8%80/" title="In 计算机科学，C语言">计算机科学，C语言</a>
+</div>
+
+    <span><a href="/computer-science/c/%E9%AB%98%E7%B2%BE%E5%BA%A6/" title="高精度算法">高精度算法</a></span>
   </li>
 
   </ul>
@@ -460,13 +468,13 @@
     <span class="post-meta-item-icon">
       <i class="ic i-chart-area"></i>
     </span>
-    <span title="Symbols count total">6k words</span>
+    <span title="Symbols count total">7k words</span>
 
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="ic i-coffee"></i>
     </span>
-    <span title="Reading time total">5 mins.</span>
+    <span title="Reading time total">6 mins.</span>
   </div>
   <div class="powered-by">
     Powered by <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
