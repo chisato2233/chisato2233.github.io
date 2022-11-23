@@ -5,9 +5,9 @@
     <link href="http://example.com" />
     <updated>2022-11-23T08:11:15.504Z</updated>
     <entry>
-        <id>http://example.com/games/yuansheng/%E5%8E%9F%E5%9C%A3%E7%AD%96%E5%88%92%E6%A1%88%EF%BC%88%E7%AE%80%E6%98%8E%E7%89%88%EF%BC%89/</id>
+        <id>http://example.com/games/%E5%8E%9F%E5%9C%A3%E7%AD%96%E5%88%92%E6%A1%88%EF%BC%88%E7%AE%80%E6%98%8E%E7%89%88%EF%BC%89/</id>
         <title>原圣策划案</title>
-        <link rel="alternate" href="http://example.com/games/yuansheng/%E5%8E%9F%E5%9C%A3%E7%AD%96%E5%88%92%E6%A1%88%EF%BC%88%E7%AE%80%E6%98%8E%E7%89%88%EF%BC%89/"/>
+        <link rel="alternate" href="http://example.com/games/%E5%8E%9F%E5%9C%A3%E7%AD%96%E5%88%92%E6%A1%88%EF%BC%88%E7%AE%80%E6%98%8E%E7%89%88%EF%BC%89/"/>
         <content type="html">&lt;h1 id=&#34;游戏简介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#游戏简介&#34;&gt;#&lt;/a&gt; 游戏简介&lt;/h1&gt;
 &lt;p&gt;原圣是一款在三国杀框架下的融合原神反应机制的卡牌对战类游戏，并且其中设计对于原神反应在卡牌方面的融合可以套用于其他卡牌游戏。&lt;/p&gt;
 &lt;h1 id=&#34;元素与反应&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#元素与反应&#34;&gt;#&lt;/a&gt; 元素与反应&lt;/h1&gt;
@@ -539,15 +539,5 @@
 &lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;/h2&gt;
 </content>
         <updated>2022-10-24T10:18:10.587Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/genshine-impact/%E5%85%83%E7%B4%A0%E8%AE%BA/</id>
-        <title>元素论</title>
-        <link rel="alternate" href="http://example.com/genshine-impact/%E5%85%83%E7%B4%A0%E8%AE%BA/"/>
-        <content type="html">&lt;h1 id=&#34;元素论&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#元素论&#34;&gt;#&lt;/a&gt; 元素论&lt;/h1&gt;
-&lt;h2 id=&#34;第一章绪论&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#第一章绪论&#34;&gt;#&lt;/a&gt; 第一章：绪论&lt;/h2&gt;
-&lt;h3 id=&#34;11-元素简介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11-元素简介&#34;&gt;#&lt;/a&gt; 1.1 元素简介&lt;/h3&gt;
-</content>
-        <updated>2022-10-16T13:15:47.887Z</updated>
     </entry>
 </feed>
