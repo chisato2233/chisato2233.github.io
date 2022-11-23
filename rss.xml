@@ -5,8 +5,392 @@
         <link>http://example.com</link>
         <description></description>
         <language>en</language>
-        <pubDate>Mon, 14 Nov 2022 22:40:15 +0800</pubDate>
-        <lastBuildDate>Mon, 14 Nov 2022 22:40:15 +0800</lastBuildDate>
+        <pubDate>Wed, 23 Nov 2022 16:11:15 +0800</pubDate>
+        <lastBuildDate>Wed, 23 Nov 2022 16:11:15 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/games/yuansheng/%E5%8E%9F%E5%9C%A3%E7%AD%96%E5%88%92%E6%A1%88%EF%BC%88%E7%AE%80%E6%98%8E%E7%89%88%EF%BC%89/</guid>
+            <title>原圣策划案</title>
+            <link>http://example.com/games/yuansheng/%E5%8E%9F%E5%9C%A3%E7%AD%96%E5%88%92%E6%A1%88%EF%BC%88%E7%AE%80%E6%98%8E%E7%89%88%EF%BC%89/</link>
+            <pubDate>Wed, 23 Nov 2022 16:11:15 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;游戏简介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#游戏简介&#34;&gt;#&lt;/a&gt; 游戏简介&lt;/h1&gt;
+&lt;p&gt;原圣是一款在三国杀框架下的融合原神反应机制的卡牌对战类游戏，并且其中设计对于原神反应在卡牌方面的融合可以套用于其他卡牌游戏。&lt;/p&gt;
+&lt;h1 id=&#34;元素与反应&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#元素与反应&#34;&gt;#&lt;/a&gt; 元素与反应&lt;/h1&gt;
+&lt;h2 id=&#34;附着&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#附着&#34;&gt;#&lt;/a&gt; 附着&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;相较于传统，我们特意将【判定区】改为【元素区】，通过某种特定规则置于【元素区】的牌称为元素附着，同种附着只存在一种，因此若已存在同种附着，则会以后手附着更换先手附着，后者置入弃牌堆。（除非先手附着为&lt;em&gt;&lt;strong&gt;横置附着&lt;/strong&gt;&lt;/em&gt;）&lt;/li&gt;
+&lt;li&gt;【横置附着】是一种特殊的附着存在状态，它拥有很高的优先级，不会被同元素附着顶掉。&lt;/li&gt;
+&lt;li&gt;牌堆中所有【实体元素杀】都可以直接&lt;em&gt;&lt;strong&gt;竖直入&lt;/strong&gt;&lt;/em&gt;其他角色的【元素区】，以这种方式进行的元素附着每回合限一次。&lt;/li&gt;
+&lt;li&gt;【元素伤害】与【元素附着】没有必然联系。但是【元素伤害】也可以触发反应&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;触发反应&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#触发反应&#34;&gt;#&lt;/a&gt; 触发反应&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;当一名角色被元素附着，或受到元素伤害时，根据此时元素区内的元素附着种类，依照反应规则触发反应。&lt;/li&gt;
+&lt;li&gt;【元素精通】是所有角色的固有属性，默认为 1 点，上限为 5 点，可以通过角色技能等方式提高或临时提高元素精通点数。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;反应规则&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#反应规则&#34;&gt;#&lt;/a&gt; 反应规则&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;【蒸发】
+&lt;ul&gt;
+&lt;li&gt;水 + 火 = 蒸发，反应后所有附着置入弃牌堆。&lt;/li&gt;
+&lt;li&gt;触发反应的伤害 * 2。（如果是附着触发蒸发，则只将水火附着置入弃牌堆）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;【融化】
+&lt;ul&gt;
+&lt;li&gt;冰 + 火 = 融化，反应后所有附着置入弃牌堆。&lt;/li&gt;
+&lt;li&gt;触发反应的伤害 * 2。（如果是附着触发融化，则只将冰火附着置入弃牌堆）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;【感电】
+&lt;ul&gt;
+&lt;li&gt;水 + 雷 = 感电，反应后水元素附着进入弃牌堆。&lt;/li&gt;
+&lt;li&gt;造成【元素精通】点雷电伤害，横置雷元素附着，称为【感电附着】。（如果是雷伤触发感电，则只将水附着置入弃牌堆）&lt;/li&gt;
+&lt;li&gt;【感电附着】
+&lt;ul&gt;
+&lt;li&gt;角色判定阶段，若拥有此附着，则进行一次判定，若不为【梅花】，跳过本回合摸牌阶段。不论如何，将感电附着置入弃牌堆&lt;/li&gt;
+&lt;li&gt;【感电附着】占据雷元素附着位，可以触发除感电外的所有有关雷元素的反应。受到水元素附着时会产生【水雷共存】，此后优先反应水附着。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;【冻结】
+&lt;ul&gt;
+&lt;li&gt;水 + 冰 = 冻结，反应后水元素附着进入弃牌堆。&lt;/li&gt;
+&lt;li&gt;横置冰元素附着，称为【冻结附着】。（如果是冰伤触发感电，则只将水附着置入弃牌堆）&lt;/li&gt;
+&lt;li&gt;【冻结附着】
+&lt;ul&gt;
+&lt;li&gt;角色判定阶段，若拥有此附着，则进行一次判定，若不为【红桃】，跳过本回合出牌阶段。不论如何，将冻结附着置入弃牌堆&lt;/li&gt;
+&lt;li&gt;【冻结附着】占据冰元素附着位，可以触发除冻结外的所有有关冰元素的反应。受到水元素附着时会产生【水冻共存】，此后优先反应水附着。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;【超载】
+&lt;ul&gt;
+&lt;li&gt;火 + 雷 = 超载，反应后附着全部进入弃牌堆&lt;/li&gt;
+&lt;li&gt;造成【元素精通】*2 的火元素伤害。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;【超导】
+&lt;ul&gt;
+&lt;li&gt;冰 + 雷 = 超导，反应后附着全部进入弃牌堆&lt;/li&gt;
+&lt;li&gt;将目标的（【元素精通】+1）张手牌置于角色旁，直到你的回合结束。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;【扩散】
+&lt;ul&gt;
+&lt;li&gt;风 +（水 / 火 / 雷 / 冰）= 扩散，反应后附着全部进入弃牌堆&lt;/li&gt;
+&lt;li&gt;造成 2*【元素精通】点对应元素伤害，然后获得一张目标元素区内的&lt;em&gt;&lt;strong&gt;竖直&lt;/strong&gt;&lt;/em&gt;元素附着&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;【结晶】
+&lt;ul&gt;
+&lt;li&gt;岩 +（水 / 火 / 雷 / 冰）= 结晶，反应后附着全部进入弃牌堆&lt;/li&gt;
+&lt;li&gt;令触发反映者护盾 + 1。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;【原激化】
+&lt;ul&gt;
+&lt;li&gt;雷 + 草 = 原激化，反应后雷元素进入弃牌堆&lt;/li&gt;
+&lt;li&gt;横置草元素附着，称为【激化附着】，（如果是草伤触发原激化，则只将雷附着置入弃牌堆）&lt;/li&gt;
+&lt;li&gt;【激化附着】
+&lt;ul&gt;
+&lt;li&gt;角色判定阶段，若拥有此附着，则进行一次判定，若不为【方片】，则将激化附着置入弃牌堆。&lt;/li&gt;
+&lt;li&gt;【激化附着】占据草元素附着位，可以触发除原激化外的所有有关草元素的反应。受到雷元素附着时会产生【雷激共存】，此后优先反应雷附着。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;【超激化】
+&lt;ul&gt;
+&lt;li&gt;雷 + 激化 = 超激化，反应后雷元素附着进入弃牌堆。&lt;/li&gt;
+&lt;li&gt;触发反应的伤害 * X+【元素精通】（X=【元素精通】❤️？1：2），激化附着立即进行一次判定。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;【蔓激化】
+&lt;ul&gt;
+&lt;li&gt;草 + 激化 = 蔓激化，反应后草元素附着进入弃牌堆。&lt;/li&gt;
+&lt;li&gt;触发反应的伤害 * X+【元素精通】（X=【元素精通】❤️？1：2），激化附着立即进行一次判定。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;【绽放】
+&lt;ul&gt;
+&lt;li&gt;水 + 草 = 绽放，反应后草元素进入弃牌堆&lt;/li&gt;
+&lt;li&gt;横置水元素附着，称为【绽放种附着】，（如果是水伤触发绽放，则只将草附着置入弃牌堆）&lt;/li&gt;
+&lt;li&gt;【绽放种附着】
+&lt;ul&gt;
+&lt;li&gt;角色判定阶段，若拥有此附着，则进行一次判定，若不为【黑桃】，则对角色造成 1 点草元素伤害。不论如何，将绽放种附着置入弃牌堆.&lt;/li&gt;
+&lt;li&gt;【绽放种附着】可以至多重叠两个，一起进行判定。有关【绽放种附着】的反应也会一起结算。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;【超绽放】
+&lt;ul&gt;
+&lt;li&gt;雷 + 绽放种 = 超绽放，反应后雷附着进入弃牌堆&lt;/li&gt;
+&lt;li&gt;绽放种附着立即进行一次判定，此时判定成功造成的伤害改为【元素精通】*X（X=【元素精通】❤️？1：2）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;【烈绽放】
+&lt;ul&gt;
+&lt;li&gt;火 + 绽放种 = 烈绽放，反应后火附着进入弃牌堆&lt;/li&gt;
+&lt;li&gt;绽放种附着立即进行一次判定，此时判定成功造成的伤害改为 X（X=【元素精通】❤️？2：4），目标【周围】角色受到等量伤害。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;【燃烧】
+&lt;ul&gt;
+&lt;li&gt;草 + 火 = 燃烧，反应后草附着进入弃牌堆&lt;/li&gt;
+&lt;li&gt;横置火元素附着，称为【燃附着】，（如果是火伤触发燃烧，则只将草附着置入弃牌堆）。&lt;/li&gt;
+&lt;li&gt;【燃附着】
+&lt;ul&gt;
+&lt;li&gt;角色回合结束时，元素区有【燃附着】的角色依次受到 1 点无来源的火元素伤害。角色判定阶段，若角色拥有【燃附着】，优先将【草附着】置入弃牌堆，若没有【草附着】，再将【燃附着】置入弃牌堆。&lt;/li&gt;
+&lt;li&gt;【燃附着】占据火附着位，可以触发除燃烧外的所有有关火元素的反应。受到草元素附着时会产生【补草】效果，草元素与燃元素共存，且草元素优先触发反应。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;角色设计&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#角色设计&#34;&gt;#&lt;/a&gt; 角色设计&lt;/h1&gt;
+&lt;h2 id=&#34;基础模板&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基础模板&#34;&gt;#&lt;/a&gt; 基础模板&lt;/h2&gt;
+&lt;p&gt;为了拓宽整个伤害的体系范围，我们提高了角色单回合输出期望以及出伤成本，对应了为了平衡游戏，我们同样提高了角色的平均血线，这样能够允许更平滑的伤害梯度与可思考空间。&lt;/p&gt;
+&lt;p&gt;为了方便适配原神中繁杂的标记系统，我们特意将坐骑栏更换为【标记区】和【被标记区】。&lt;/p&gt;
+&lt;h3 id=&#34;盾奶模板&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#盾奶模板&#34;&gt;#&lt;/a&gt; 盾奶模板&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;基础血线：10&lt;/li&gt;
+&lt;li&gt;技能设计：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;伤害大致期望&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;对自身&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;对他人&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;回合内&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;-4&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;-2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;回合外&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;-2&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;副c模板&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#副c模板&#34;&gt;#&lt;/a&gt; 副 c 模板&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;基础血线：7&lt;/li&gt;
+&lt;li&gt;技能设计：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;伤害大致期望&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;对自身&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;对他人&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;回合内&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;回合外&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;-1&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;主c模板&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#主c模板&#34;&gt;#&lt;/a&gt; 主 c 模板&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;基础血线：7&lt;/li&gt;
+&lt;li&gt;技能设计：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;伤害大致期望&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;对自身&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;对他人&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;回合内&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;回合外&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;增伤拐模板&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#增伤拐模板&#34;&gt;#&lt;/a&gt; 增伤拐模板&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;基础血线：8&lt;/li&gt;
+&lt;li&gt;技能设计：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;等效伤害期望&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;对自身&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;对他人&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;回合内&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;-1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;回合外&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;-1&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;设计样例初稿&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#设计样例初稿&#34;&gt;#&lt;/a&gt; 设计样例（初稿）&lt;/h2&gt;
+&lt;h4 id=&#34;珊瑚宫心海8血&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#珊瑚宫心海8血&#34;&gt;#&lt;/a&gt; 【珊瑚宫心海】（8 血）&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;出牌阶段限一次，你可以弃置任意张牌，选择 n 名角色（n 为你以此法弃置的牌的数量），执行【幻海月】效果。若你以此法弃置不少于两张非基本牌，你成为【幻海月】效果的额外目标
+&lt;ul&gt;
+&lt;li&gt;【幻海月】：选择以下效果之一：
+&lt;ol&gt;
+&lt;li&gt;回复一点体力并摸一张牌。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;锁定技，你即将造成伤害时，你立即防止此伤害。若你本回合因此法防止过来源为你的伤害，本回合你产生的回复量翻倍。&lt;/li&gt;
+&lt;li&gt;回合开始时，若你满足 a. 为主公；b. 元素区内存在水元素附着；c. 生命值 &amp;lt;=5，你令【幻海月】获得以下选项直到你的回合结束。
+&lt;ol&gt;
+&lt;li&gt;选项 1 的回复值提升至 1.5（最终结果向下取整）。&lt;/li&gt;
+&lt;li&gt;增添选项 2：流失一点体力。&lt;/li&gt;
+&lt;li&gt;增添选项 3：弃置所有牌，然后摸等量的牌。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;雷电将军7血&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#雷电将军7血&#34;&gt;#&lt;/a&gt; 【雷电将军】（7 血）&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;每当一名角色通过弃牌发动技能时，你可以将牌堆顶的一张牌置于【标记区】内，称为【愿力】。【愿力】最多存在 10 张。&lt;/li&gt;
+&lt;li&gt;每当一名角色造成伤害后，你可以弃置一张【愿力】，若如此做，你摸一张牌。每当一名角色受到伤害后，你可以弃置两张【愿力】，若如此做，你对伤害来源造成一点雷元素伤害。&lt;/li&gt;
+&lt;li&gt;出牌阶段限一次，你可以弃置两张【黑桃】锦囊牌，若如此做，你可以对一名攻击范围内的角色造成 4 点雷元素伤害，然后你进入【梦想一心】状态（更换状态会失去原有技能体系，并获得一套新的技能体系）&lt;/li&gt;
+&lt;li&gt;【梦想一心】
+&lt;ul&gt;
+&lt;li&gt;锁定技，你的杀均视为雷杀，且无次数限制。&lt;/li&gt;
+&lt;li&gt;每当你使用雷杀指定目标后，你可以你可以弃置两张【愿力】令此杀伤害 + 1，然后若此杀被闪抵消，你可以弃置一张【愿力】，然后摸一张牌；若此杀成功造成伤害，你可以弃置一张【愿力】，令一名其他角色摸 X 张牌（X 为此杀造成的伤害数）&lt;/li&gt;
+&lt;li&gt;锁定技，回合结束时，你令一名角色摸 4 张牌，然后你退出【梦想一心】状态。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;迪卢克8血&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#迪卢克8血&#34;&gt;#&lt;/a&gt; 【迪卢克】（8 血）&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;回合开始时，你可以选择任意数量项：1. 跳过出牌阶段 2. 跳过摸牌阶段 3. 跳过判定阶段并流失一点体力 4. 跳过弃牌阶段并弃置两张牌。若如此做，回合结束时，视为使用了一张无距离限制且最多可以指定 n 名角色的火杀（n 为你以此法选择的选项数量）&lt;/li&gt;
+&lt;li&gt;每当你使用火杀指定目标后，你可以弃置所有手牌，然后摸两张牌。若你以此法弃置的手牌中非基本牌的数量为：
+&lt;ul&gt;
+&lt;li&gt;一张及以上：此杀不可闪避&lt;/li&gt;
+&lt;li&gt;两张及以上：伤害 + 1&lt;/li&gt;
+&lt;li&gt;四张及以上：摸四张牌&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;枫原万叶6血&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#枫原万叶6血&#34;&gt;#&lt;/a&gt; 【枫原万叶】（6 血）&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;锁定技，你的【元素精通】+1。&lt;/li&gt;
+&lt;li&gt;出牌阶段限一次，你可以弃置任意张牌，然后选择等量的角色，对他们依次造成一点风元素伤害。若如此做，你可以将排队顶等量的牌背面向上置于他们的被标记区内，称为【聚引】。回合开始时，你收回所有【聚引】。&lt;/li&gt;
+&lt;li&gt;【聚引】有此标记的角色计算同样有此标记的角色的距离时，始终为 1。&lt;/li&gt;
+&lt;li&gt;限定技，出牌阶段，你可以对所有其他角色依次造成一点风元素伤害。若如此做，直到下个你的回合结束，每当一名角色准备阶段时，你都可以将一张手牌竖置于其元素区内。&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/computer-science/c/%E5%BF%AB%E6%8E%92/</guid>
+            <title>快速排序</title>
+            <link>http://example.com/computer-science/c/%E5%BF%AB%E6%8E%92/</link>
+            <pubDate>Tue, 15 Nov 2022 09:54:25 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;快速排序&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#快速排序&#34;&gt;#&lt;/a&gt; 快速排序&lt;/h1&gt;
+&lt;p&gt;c++ 的 stl 库里给出的 sort () 是典型的快速排序，相较于一般的排序方法，快速排序能够优化时间。&lt;/p&gt;
+&lt;h2 id=&#34;原理与步骤&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#原理与步骤&#34;&gt;#&lt;/a&gt; 原理与步骤&lt;/h2&gt;
+&lt;p&gt;快排的原理很常见，他的原理和步骤具体如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;选取一组无序数列中间某一项（随机的一项），命名为 flag，从数列的最左端和最右端同时遍历（后文将左端索引称为 i，右端称为 j），直到左端和右端都找到一个 “不正常” 项，即左端大于 flag 的不正常项和右端小于 flag 的不正常项。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;为了防止有歧义特此说明，找不正常项的过程是顺序进行的两个循环，互相不受影响。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;快速排序所作的具体的行动就是让 flag 两边的所有项都 “正常”。这样做造成的结果是，左边的数字跨过 flag 到右边，或者把右边的数跨过 flag 到左边都一定是错误的，flag 在这个时候起到了将数列分界的作用。我们对分界后的子数列同样正常化他们 —— 最终只剩一个或两个数字的时候，正常化就可以完全等效为序列化。这可以用递归实现。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;正常化 flag 两边的序列最简单的方法就是交换 1 所找到的不正常项，强制让 flag 两边的正常化&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;代码实现&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#代码实现&#34;&gt;#&lt;/a&gt; 代码实现&lt;/h2&gt;
+&lt;p&gt;上述的原理只是为了方便理解，实际上有许多逻辑漏洞。修理这些逻辑漏洞会让理解变得困难，所以放到代码部分讲解。&lt;/p&gt;
+&lt;p&gt;下面给出了一个数列 3 4 5 2 6 9 8 5，以&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;a_2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.58056em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.30110799999999993em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;（5）为 flag 开始快排。读者跟着上面的思路找到 i 和 j 的不正常项后会注意到他们的位置是：i=&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;a_4&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.58056em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.30110799999999993em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;4&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;(6),j=&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;a_3&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.58056em;vertical-align:-0.15em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.30110799999999993em;&#34;&gt;&lt;span style=&#34;top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; (2),i 超过了 j。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/computer-science/c/%E6%A8%A1%E6%9D%BF/</guid>
+            <title>位运算</title>
+            <link>http://example.com/computer-science/c/%E6%A8%A1%E6%9D%BF/</link>
+            <pubDate>Tue, 15 Nov 2022 09:54:05 +0800</pubDate>
+            <description><![CDATA[  ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/example/%E5%9C%A8%E8%BF%99%E9%87%8C%EF%BC%8C%E5%BE%80%E5%93%AA%E7%9C%8B/</guid>
             <title>在这里在这里</title>
@@ -64,7 +448,7 @@
 &lt;h2 id=&#34;数据的存储与调用&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数据的存储与调用&#34;&gt;#&lt;/a&gt; 数据的存储与调用&lt;/h2&gt;
 &lt;p&gt;​	高精度要求你所能存储的数尽可能的大，不妨直接开一个数组来存这样的大麻烦。数组中每一项只存储这个数字的一位，这样的好处是就算数字达到了 10000 位之大他都能塞得进数组里。&lt;/p&gt;
 &lt;p&gt;​	为了方便让这个家伙进位，我们应该让他倒着在数组里躺着。自然在调用的时候也得倒着来&lt;/p&gt;
-&lt;figure class=&#34;highlight c++&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;51&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;52&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;53&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;54&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;55&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;56&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;57&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;58&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;59&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;60&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;61&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs c++&#34;&gt;&lt;br&gt;&lt;span class=&#34;hljs-comment&#34;&gt;//高精度整数定义&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;struct&lt;/span&gt; &lt;span class=&#34;hljs-title class_&#34;&gt;BigInt&lt;/span&gt; &amp;#123;&lt;br&gt;	&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; len = &lt;span class=&#34;hljs-number&#34;&gt;0&lt;/span&gt;;&lt;span class=&#34;hljs-comment&#34;&gt;//长度&lt;/span&gt;&lt;br&gt;	&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; num[MAX] = &amp;#123;&lt;span class=&#34;hljs-number&#34;&gt;0&lt;/span&gt;&amp;#125;;&lt;span class=&#34;hljs-comment&#34;&gt;//具体的数字&lt;/span&gt;&lt;br&gt;&lt;br&gt;	&lt;span class=&#34;hljs-comment&#34;&gt;//初始化，将一个整数转化为高精度&lt;/span&gt;&lt;br&gt;	&lt;span class=&#34;hljs-built_in&#34;&gt;BigInt&lt;/span&gt;(&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; x = &lt;span class=&#34;hljs-number&#34;&gt;0&lt;/span&gt;) &lt;br&gt;    &amp;#123;&lt;br&gt;		&lt;span class=&#34;hljs-built_in&#34;&gt;memset&lt;/span&gt;(num, &lt;span class=&#34;hljs-number&#34;&gt;0&lt;/span&gt;, &lt;span class=&#34;hljs-built_in&#34;&gt;sizeof&lt;/span&gt;(num));&lt;br&gt;		&lt;span class=&#34;hljs-keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; i = &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;; x; i++, len++) &lt;br&gt;        &amp;#123;&lt;br&gt;			num[i] = x % &lt;span class=&#34;hljs-number&#34;&gt;10&lt;/span&gt;;&lt;br&gt;			x /= &lt;span class=&#34;hljs-number&#34;&gt;10&lt;/span&gt;;&lt;br&gt;		&amp;#125;&lt;br&gt;	&amp;#125;&lt;br&gt;&lt;br&gt;	&lt;span class=&#34;hljs-comment&#34;&gt;//重载[]，让他直接访问BigInt的数据&lt;/span&gt;&lt;br&gt;	&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; &amp;amp;&lt;span class=&#34;hljs-keyword&#34;&gt;operator&lt;/span&gt;[](&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; i) &lt;br&gt;    &amp;#123;&lt;br&gt;		&lt;span class=&#34;hljs-keyword&#34;&gt;return&lt;/span&gt; num[i];&lt;br&gt;	&amp;#125;&lt;br&gt;&lt;br&gt;	&lt;span class=&#34;hljs-comment&#34;&gt;//进位与更新长度&lt;/span&gt;&lt;br&gt;	&lt;span class=&#34;hljs-function&#34;&gt;&lt;span class=&#34;hljs-type&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;hljs-title&#34;&gt;jinwei&lt;/span&gt;&lt;span class=&#34;hljs-params&#34;&gt;()&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-function&#34;&gt;    &lt;/span&gt;&amp;#123;&lt;br&gt;		&lt;span class=&#34;hljs-keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; i = &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;; i &amp;lt;= MAX; i++) &lt;br&gt;        &amp;#123;&lt;br&gt;			&lt;span class=&#34;hljs-keyword&#34;&gt;if&lt;/span&gt; (num[i] &amp;gt; &lt;span class=&#34;hljs-number&#34;&gt;9&lt;/span&gt;)&lt;br&gt;            &amp;#123;&lt;br&gt;				num[i + &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;] += num[i] / &lt;span class=&#34;hljs-number&#34;&gt;10&lt;/span&gt;;&lt;br&gt;				num[i] %= &lt;span class=&#34;hljs-number&#34;&gt;10&lt;/span&gt;;&lt;br&gt;				len++;&lt;br&gt;			&amp;#125;&lt;br&gt;		&amp;#125;&lt;br&gt;		&lt;span class=&#34;hljs-keyword&#34;&gt;while&lt;/span&gt; (!num[len])&lt;br&gt;        &amp;#123;&lt;br&gt;			len--;&lt;br&gt;		&amp;#125;&lt;br&gt;	&amp;#125;&lt;br&gt;&lt;br&gt;	&lt;span class=&#34;hljs-comment&#34;&gt;//输入&lt;/span&gt;&lt;br&gt;	&lt;span class=&#34;hljs-function&#34;&gt;&lt;span class=&#34;hljs-type&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;hljs-title&#34;&gt;scan&lt;/span&gt;&lt;span class=&#34;hljs-params&#34;&gt;(string temp)&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-function&#34;&gt;    &lt;/span&gt;&amp;#123;&lt;br&gt;		cin &amp;gt;&amp;gt; temp;&lt;br&gt;		len = temp.&lt;span class=&#34;hljs-built_in&#34;&gt;length&lt;/span&gt;();&lt;br&gt;		&lt;span class=&#34;hljs-keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; i = &lt;span class=&#34;hljs-number&#34;&gt;0&lt;/span&gt;; i &amp;lt; len; i++)&lt;br&gt;        &amp;#123;&lt;br&gt;			num[len - i] = temp[i] - &lt;span class=&#34;hljs-string&#34;&gt;&amp;#x27;0&amp;#x27;&lt;/span&gt;;&lt;br&gt;		&amp;#125;&lt;br&gt;	&amp;#125;&lt;br&gt;&lt;br&gt;	&lt;span class=&#34;hljs-comment&#34;&gt;//输出&lt;/span&gt;&lt;br&gt;	&lt;span class=&#34;hljs-function&#34;&gt;&lt;span class=&#34;hljs-type&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;hljs-title&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;hljs-params&#34;&gt;()&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-function&#34;&gt;    &lt;/span&gt;&amp;#123;&lt;br&gt;		&lt;span class=&#34;hljs-keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; i = len; i &amp;gt;= &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;; i--) &lt;br&gt;        &amp;#123;&lt;br&gt;			cout &amp;lt;&amp;lt; num[i];&lt;br&gt;		&amp;#125;&lt;br&gt;	&amp;#125;&lt;br&gt;&amp;#125;;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&#34;highlight c++&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;51&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;52&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;53&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;54&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;55&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;56&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;57&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;58&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;59&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;60&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;61&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs c++&#34;&gt;&lt;br&gt;&lt;span class=&#34;hljs-comment&#34;&gt;//高精度整数定义&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-keyword&#34;&gt;struct&lt;/span&gt; &lt;span class=&#34;hljs-title class_&#34;&gt;BigInt&lt;/span&gt; &amp;#123;&lt;br&gt;	&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; len = &lt;span class=&#34;hljs-number&#34;&gt;0&lt;/span&gt;;&lt;span class=&#34;hljs-comment&#34;&gt;//长度&lt;/span&gt;&lt;br&gt;	&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; num[MAX] = &amp;#123;&lt;span class=&#34;hljs-number&#34;&gt;0&lt;/span&gt;&amp;#125;;&lt;span class=&#34;hljs-comment&#34;&gt;//具体的数字&lt;/span&gt;&lt;br&gt;&lt;br&gt;	&lt;span class=&#34;hljs-comment&#34;&gt;//初始化，将一个整数转化为高精度&lt;/span&gt;&lt;br&gt;	&lt;span class=&#34;hljs-built_in&#34;&gt;BigInt&lt;/span&gt;(&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; x = &lt;span class=&#34;hljs-number&#34;&gt;0&lt;/span&gt;) &lt;br&gt;    &amp;#123;&lt;br&gt;		&lt;span class=&#34;hljs-built_in&#34;&gt;memset&lt;/span&gt;(num, &lt;span class=&#34;hljs-number&#34;&gt;0&lt;/span&gt;, &lt;span class=&#34;hljs-built_in&#34;&gt;sizeof&lt;/span&gt;(num));&lt;br&gt;		&lt;span class=&#34;hljs-keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; i = &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;; x; i++, len++)&lt;br&gt;        &amp;#123;&lt;br&gt;			num[i] = x % &lt;span class=&#34;hljs-number&#34;&gt;10&lt;/span&gt;;&lt;br&gt;			x /= &lt;span class=&#34;hljs-number&#34;&gt;10&lt;/span&gt;;&lt;br&gt;        &amp;#125;&lt;br&gt;    &amp;#125;&lt;br&gt;&lt;br&gt;	&lt;span class=&#34;hljs-comment&#34;&gt;//重载[]，让他直接访问BigInt的数据&lt;/span&gt;&lt;br&gt;	&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; &amp;amp;&lt;span class=&#34;hljs-keyword&#34;&gt;operator&lt;/span&gt;[](&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; i)&lt;br&gt;    &amp;#123;&lt;br&gt;		&lt;span class=&#34;hljs-keyword&#34;&gt;return&lt;/span&gt; num[i];&lt;br&gt;    &amp;#125;&lt;br&gt;&lt;br&gt;	&lt;span class=&#34;hljs-comment&#34;&gt;//进位与更新长度&lt;/span&gt;&lt;br&gt;	&lt;span class=&#34;hljs-function&#34;&gt;&lt;span class=&#34;hljs-type&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;hljs-title&#34;&gt;jinwei&lt;/span&gt;&lt;span class=&#34;hljs-params&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-function&#34;&gt;    &lt;/span&gt;&amp;#123;&lt;br&gt;		&lt;span class=&#34;hljs-keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; i = &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;; i &amp;lt;= MAX; i++)&lt;br&gt;        &amp;#123;&lt;br&gt;			&lt;span class=&#34;hljs-keyword&#34;&gt;if&lt;/span&gt; (num[i] &amp;gt; &lt;span class=&#34;hljs-number&#34;&gt;9&lt;/span&gt;)&lt;br&gt;            &amp;#123;&lt;br&gt;				num[i + &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;] += num[i] / &lt;span class=&#34;hljs-number&#34;&gt;10&lt;/span&gt;;&lt;br&gt;				num[i] %= &lt;span class=&#34;hljs-number&#34;&gt;10&lt;/span&gt;;&lt;br&gt;				len++;&lt;br&gt;            &amp;#125;&lt;br&gt;        &amp;#125;&lt;br&gt;		&lt;span class=&#34;hljs-keyword&#34;&gt;while&lt;/span&gt; (!num[len])&lt;br&gt;        &amp;#123;&lt;br&gt;			len--;&lt;br&gt;		&amp;#125;&lt;br&gt;	&amp;#125;&lt;br&gt;&lt;br&gt;	&lt;span class=&#34;hljs-comment&#34;&gt;//输入&lt;/span&gt;&lt;br&gt;	&lt;span class=&#34;hljs-function&#34;&gt;&lt;span class=&#34;hljs-type&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;hljs-title&#34;&gt;scan&lt;/span&gt;&lt;span class=&#34;hljs-params&#34;&gt;(string temp)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-function&#34;&gt;    &lt;/span&gt;&amp;#123;&lt;br&gt;		cin &amp;gt;&amp;gt; temp;&lt;br&gt;		len = temp.&lt;span class=&#34;hljs-built_in&#34;&gt;length&lt;/span&gt;();&lt;br&gt;		&lt;span class=&#34;hljs-keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; i = &lt;span class=&#34;hljs-number&#34;&gt;0&lt;/span&gt;; i &amp;lt; len; i++)&lt;br&gt;        &amp;#123;&lt;br&gt;			num[len - i] = temp[i] - &lt;span class=&#34;hljs-string&#34;&gt;&amp;#x27;0&amp;#x27;&lt;/span&gt;;&lt;br&gt;		&amp;#125;&lt;br&gt;	&amp;#125;&lt;br&gt;&lt;br&gt;	&lt;span class=&#34;hljs-comment&#34;&gt;//输出&lt;/span&gt;&lt;br&gt;	&lt;span class=&#34;hljs-function&#34;&gt;&lt;span class=&#34;hljs-type&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;hljs-title&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;hljs-params&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-function&#34;&gt;    &lt;/span&gt;&amp;#123;&lt;br&gt;		&lt;span class=&#34;hljs-keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; i = len; i &amp;gt;= &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;; i--) &lt;br&gt;        &amp;#123;&lt;br&gt;			cout &amp;lt;&amp;lt; num[i];&lt;br&gt;		&amp;#125;&lt;br&gt;	&amp;#125;&lt;br&gt;&amp;#125;;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h2 id=&#34;赋值&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#赋值&#34;&gt;#&lt;/a&gt; 赋值&lt;/h2&gt;
 &lt;p&gt;重载 =，让 = 右边的 BigInt 赋值给左边。&lt;/p&gt;
 &lt;figure class=&#34;highlight c++&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs c++&#34;&gt;&lt;br&gt;&lt;span class=&#34;hljs-type&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;hljs-keyword&#34;&gt;operator&lt;/span&gt;= (BigInt&amp;amp; left,BigInt right)&lt;br&gt;&amp;#123;&lt;br&gt;    left.len=right.len;&lt;br&gt;    &lt;span class=&#34;hljs-keyword&#34;&gt;for&lt;/span&gt;(&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; i=&lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;;i&amp;lt;=right.len;i++)&lt;br&gt;    &amp;#123;&lt;br&gt;        left[i]=right[i];&lt;br&gt;    &amp;#125;&lt;br&gt;    &lt;span class=&#34;hljs-keyword&#34;&gt;for&lt;/span&gt;(&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; i=right.len;i&amp;lt;=left.len;i++)&lt;br&gt;    &amp;#123;&lt;br&gt;        left[i]=&lt;span class=&#34;hljs-number&#34;&gt;0&lt;/span&gt;;&lt;br&gt;    &amp;#125;&lt;br&gt;&amp;#125;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -75,14 +459,14 @@
 &lt;figure class=&#34;highlight c++&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs c++&#34;&gt;&lt;br&gt;BigInt &lt;span class=&#34;hljs-keyword&#34;&gt;operator&lt;/span&gt;+ (BigInt a,&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; b)&lt;br&gt;&amp;#123;&lt;br&gt;    BigInt r;&lt;br&gt;    r=a;&lt;br&gt;    r.len=a.len+&lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;;&lt;br&gt;    r[&lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;]+=n;&lt;br&gt;    r.&lt;span class=&#34;hljs-built_in&#34;&gt;jinwei&lt;/span&gt;();&lt;br&gt;    &lt;span class=&#34;hljs-keyword&#34;&gt;return&lt;/span&gt; r;&lt;br&gt;&amp;#125;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&#34;与高精度相加&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#与高精度相加&#34;&gt;#&lt;/a&gt; 与高精度相加&lt;/h3&gt;
 &lt;p&gt;​	与高精度相加似乎与普通数字相加的区别不大 —— 你只需将加这个动作在每个位数上都来上一遍，最后进行进位即可。。&lt;/p&gt;
-&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs cpp&#34;&gt;&lt;br&gt;BigInt &lt;span class=&#34;hljs-keyword&#34;&gt;operator&lt;/span&gt;+ (BigInt a, BigInt b)&lt;br&gt;&amp;#123;&lt;br&gt;	BigInt r;&lt;br&gt;	&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; l = a.len &amp;gt; b.len ? a.len : b.len;&lt;br&gt;	l += &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;;&lt;br&gt;	r.len = l;&lt;br&gt;	&lt;span class=&#34;hljs-keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; i = &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;; i &amp;lt;= l; i++) &lt;br&gt;    &amp;#123;&lt;br&gt;		r[i] = a[i] + b[i];&lt;br&gt;	&amp;#125;&lt;br&gt;	r.&lt;span class=&#34;hljs-built_in&#34;&gt;jinwei&lt;/span&gt;();&lt;br&gt;	&lt;span class=&#34;hljs-keyword&#34;&gt;return&lt;/span&gt; r;&lt;br&gt;&amp;#125;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs cpp&#34;&gt;&lt;br&gt;BigInt &lt;span class=&#34;hljs-keyword&#34;&gt;operator&lt;/span&gt;+ (BigInt a, BigInt b)&lt;br&gt;&amp;#123;&lt;br&gt;	BigInt r;&lt;br&gt;	&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; l = a.len &amp;gt; b.len ? a.len : b.len;&lt;br&gt;	l += &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;;&lt;br&gt;	r.len = l;&lt;br&gt;	&lt;span class=&#34;hljs-keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; i = &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;; i &amp;lt;= l; i++)&lt;br&gt;    &amp;#123;&lt;br&gt;		r[i] = a[i] + b[i];&lt;br&gt;	&amp;#125;&lt;br&gt;	r.&lt;span class=&#34;hljs-built_in&#34;&gt;jinwei&lt;/span&gt;();&lt;br&gt;	&lt;span class=&#34;hljs-keyword&#34;&gt;return&lt;/span&gt; r;&lt;br&gt;&amp;#125;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h2 id=&#34;乘法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#乘法&#34;&gt;#&lt;/a&gt; 乘法&lt;/h2&gt;
 &lt;h3 id=&#34;与普通数字相乘&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#与普通数字相乘&#34;&gt;#&lt;/a&gt; 与普通数字相乘&lt;/h3&gt;
 &lt;p&gt;​	与普通数字相乘即为每个数字乘上一个 n，不再赘述。。&lt;/p&gt;
-&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs cpp&#34;&gt;&lt;br&gt;&lt;span class=&#34;hljs-comment&#34;&gt;//高乘单&lt;/span&gt;&lt;br&gt;BigInt &lt;span class=&#34;hljs-keyword&#34;&gt;operator&lt;/span&gt;* (BigInt a, &lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; n) &lt;br&gt;&amp;#123;&lt;br&gt;	BigInt r;&lt;br&gt;	&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; l = a.len;&lt;br&gt;	r.len = l;&lt;br&gt;	&lt;span class=&#34;hljs-keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; i = &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;; i &amp;lt;= a.len; i++) &lt;br&gt;    &amp;#123;&lt;br&gt;		r[i] = a[i] * n;&lt;br&gt;	&amp;#125;&lt;br&gt;	r.&lt;span class=&#34;hljs-built_in&#34;&gt;jinwei&lt;/span&gt;();&lt;br&gt;	&lt;span class=&#34;hljs-keyword&#34;&gt;return&lt;/span&gt; r;&lt;br&gt;&amp;#125;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs cpp&#34;&gt;&lt;br&gt;&lt;span class=&#34;hljs-comment&#34;&gt;//高乘单&lt;/span&gt;&lt;br&gt;BigInt &lt;span class=&#34;hljs-keyword&#34;&gt;operator&lt;/span&gt;* (BigInt a, &lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; n)&lt;br&gt;&amp;#123;&lt;br&gt;	BigInt r;&lt;br&gt;	&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; l = a.len;&lt;br&gt;	r.len = l;&lt;br&gt;	&lt;span class=&#34;hljs-keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; i = &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;; i &amp;lt;= a.len; i++)&lt;br&gt;    &amp;#123;&lt;br&gt;		r[i] = a[i] * n;&lt;br&gt;	&amp;#125;&lt;br&gt;	r.&lt;span class=&#34;hljs-built_in&#34;&gt;jinwei&lt;/span&gt;();&lt;br&gt;	&lt;span class=&#34;hljs-keyword&#34;&gt;return&lt;/span&gt; r;&lt;br&gt;&amp;#125;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&#34;与高精度相乘&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#与高精度相乘&#34;&gt;#&lt;/a&gt; 与高精度相乘&lt;/h3&gt;
 &lt;p&gt;与高精度相乘时，回忆竖式乘法，可以等效为与多个普通数字相乘之后再错位相加。错位相加这一步刚好可以用 BigInt 的 jinwei () 等效实现，代码如下&lt;/p&gt;
-&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs cpp&#34;&gt;&lt;br&gt;&lt;span class=&#34;hljs-comment&#34;&gt;//高乘高&lt;/span&gt;&lt;br&gt;BigInt &lt;span class=&#34;hljs-keyword&#34;&gt;operator&lt;/span&gt;* (BigInt a, BigInt b) &lt;br&gt;&amp;#123;&lt;br&gt;	BigInt r;&lt;br&gt;	r.len = a.len + b.len;&lt;br&gt;	&lt;span class=&#34;hljs-keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; i = &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;; i &amp;lt;= a.len; i++) &lt;br&gt;    &amp;#123;&lt;br&gt;		&lt;span class=&#34;hljs-keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; j = &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;; j &amp;lt;= b.len; j++) &lt;br&gt;        &amp;#123;&lt;br&gt;			r[i + j - &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;] += a[i] * b[j];&lt;br&gt;		&amp;#125;&lt;br&gt;	&amp;#125;&lt;br&gt;	r.&lt;span class=&#34;hljs-built_in&#34;&gt;jinwei&lt;/span&gt;();&lt;br&gt;	&lt;span class=&#34;hljs-keyword&#34;&gt;return&lt;/span&gt; r;&lt;br&gt;&amp;#125;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs cpp&#34;&gt;&lt;br&gt;&lt;span class=&#34;hljs-comment&#34;&gt;//高乘高&lt;/span&gt;&lt;br&gt;BigInt &lt;span class=&#34;hljs-keyword&#34;&gt;operator&lt;/span&gt;* (BigInt a, BigInt b)&lt;br&gt;&amp;#123;&lt;br&gt;	BigInt r;&lt;br&gt;	r.len = a.len + b.len;&lt;br&gt;	&lt;span class=&#34;hljs-keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; i = &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;; i &amp;lt;= a.len; i++)&lt;br&gt;    &amp;#123;&lt;br&gt;		&lt;span class=&#34;hljs-keyword&#34;&gt;for&lt;/span&gt; (&lt;span class=&#34;hljs-type&#34;&gt;int&lt;/span&gt; j = &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;; j &amp;lt;= b.len; j++)&lt;br&gt;        &amp;#123;&lt;br&gt;			r[i + j - &lt;span class=&#34;hljs-number&#34;&gt;1&lt;/span&gt;] += a[i] * b[j];&lt;br&gt;		&amp;#125;&lt;br&gt;	&amp;#125;&lt;br&gt;	r.&lt;span class=&#34;hljs-built_in&#34;&gt;jinwei&lt;/span&gt;();&lt;br&gt;	&lt;span class=&#34;hljs-keyword&#34;&gt;return&lt;/span&gt; r;&lt;br&gt;&amp;#125;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
  ]]></description>
         </item>
         <item>
