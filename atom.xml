@@ -366,21 +366,21 @@
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;等效伤害期望&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;对自身&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;对他人&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;等效伤害期望&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;对自身&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;对他人&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;回合内&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;1&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;-1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;回合内&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;-1&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;回合外&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;-1&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;回合外&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;-1&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;3&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -525,8 +525,34 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;胜利条件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#胜利条件&#34;&gt;#&lt;/a&gt; 胜利条件&lt;/h2&gt;
 &lt;p&gt;当场上只存在一种势力的主公时，该势力获胜。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Tables&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Are&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Cool&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;col 1 is&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;left-aligned&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;$1600&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;col 2 is&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;centered&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;$12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;col 3 is&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;right-aligned&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;$1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </content>
-        <updated>2022-11-23T08:11:15.504Z</updated>
+        <updated>2022-11-23T08:11:15.500Z</updated>
     </entry>
     <entry>
         <id>http://example.com/computer-science/c/%E5%BF%AB%E6%8E%92/</id>
